@@ -1,6 +1,16 @@
 # Self-Pruning Neural Network — Case Study Report
+----
+# Self-Pruning Neural Network (CIFAR-10)
 
+A neural network that learns to prune its own weights during training using L1-regularized sigmoid gates.
 
+## 📊 Key Results
+
+| Lambda | Accuracy | Sparsity |
+|--------|---------|---------|
+| 1e-4   | ~48%    | ~20%    |
+| 1e-3   | ~45%    | ~50%    |
+| 5e-3   | ~40%    | ~80%    |
 ---
 
 ## 1. Why Does an L1 Penalty on Sigmoid Gates Encourage Sparsity?
