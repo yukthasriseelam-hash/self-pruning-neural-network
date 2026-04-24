@@ -1,6 +1,6 @@
 """
 Self-Pruning Neural Network on CIFAR-10
-Tredence AI Engineering Intern Case Study
+
 
 Architecture:
 - Custom PrunableLinear layers with learnable sigmoid gates
