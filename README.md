@@ -131,4 +131,4 @@ CIFAR-10 will be auto-downloaded to `./data/`. The script will:
 
 ---
 
-*Submitted as part of the Tredence AI Engineering Intern Case Study — 2025 Cohort.*
+
