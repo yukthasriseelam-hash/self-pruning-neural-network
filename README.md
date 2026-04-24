@@ -23,7 +23,7 @@ A neural network that learns to prune its own weights during training using L1-r
 pip install -r requirements.txt  
 python self_pruning_network.py
 
----
+
 
 ## 1. Why Does an L1 Penalty on Sigmoid Gates Encourage Sparsity?
 
@@ -90,7 +90,6 @@ After training, `gate_distributions.png` shows the histogram of all sigmoid gate
 
 **What a successful result looks like:**
 
-```
 Count
   │
   ████                                    ██
@@ -99,14 +98,14 @@ Count
   ████_________________________...________████____
   0.0                                         1.0
                     Gate Value
-```
+
 
 - **Large spike at 0** → most gates have been pruned (driven to near-zero by L1 penalty).
 - **Cluster away from 0** (near 0.5–1.0) → the remaining important connections the network chose to keep.
 
 Run the script to generate `gate_distributions.png` with the actual distribution from your training.
 
----
+
 
 ## 4. Implementation Notes
 
