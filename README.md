@@ -120,9 +120,14 @@ python self_pruning_network.py
 ```
 
 CIFAR-10 will be auto-downloaded to `./data/`. The script will:
+
 1. Train three models (λ = 1e-4, 1e-3, 5e-3) sequentially.
 2. Print epoch-level metrics and a final summary table.
 3. Save `gate_distributions.png` showing gate value histograms.
+
+## 📊 Gate Distribution Results
+
+![Gate Distribution](gate_distributions.png)
 
 ---
 
